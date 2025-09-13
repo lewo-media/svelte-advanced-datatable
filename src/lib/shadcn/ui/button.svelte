@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { cn } from '../utils';
-	import { buttonVariants, type ButtonProps } from './button.svelte.ts';
+	import { cn } from '../utils/index.js';
+	import { buttonVariants, type ButtonProps } from './button.svelte.js';
 
 	let {
 		class: className,
