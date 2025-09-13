@@ -92,7 +92,14 @@
         "url": "https://moritz.website"
     },
     "license": "MIT",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        },
         "./package.json": "./package.json",
         "./dataComponent/BooleanComponentTypeProperties": {
             "types": "./dist/dataComponent/BooleanComponentTypeProperties.d.ts",
@@ -167,11 +174,6 @@
             "types": "./dist/dataSource/svelteQuery/index.d.ts",
             "svelte": "./dist/dataSource/svelteQuery/index.js",
             "default": "./dist/dataSource/svelteQuery/index.js"
-        },
-        ".": {
-            "types": "./dist/index.d.ts",
-            "svelte": "./dist/index.js",
-            "default": "./dist/index.js"
         },
         "./internal": {
             "types": "./dist/internal/index.d.ts",
