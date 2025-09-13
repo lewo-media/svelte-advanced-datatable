@@ -44,3 +44,6 @@ export {
 export { wrapFetchToThrow } from './util/generalUtil.js';
 export { mergeDataTableConfigDefaults } from './util/dataTableConfigUtil.js';
 export { createMessageFormatter } from './util/messageFormatterUtil.svelte.js';
+
+// Shadcn components
+export * from './shadcn/index.js';
